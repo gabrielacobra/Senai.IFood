@@ -11,7 +11,7 @@ using System;
 namespace senai.ifood.repository.Migrations
 {
     [DbContext(typeof(IFoodContext))]
-    [Migration("20180223001712_BancoInicial")]
+    [Migration("20180223230112_BancoInicial")]
     partial class BancoInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
